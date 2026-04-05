@@ -1,3 +1,4 @@
+import "dotenv/config";
 import express from 'express';
 import { serverConfig } from './config';
 import v1Router from './routers/v1/index.router';
